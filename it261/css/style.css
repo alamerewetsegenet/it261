@@ -1,0 +1,111 @@
+/*style for my portal! */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: white;
+
+}
+#logo {
+    max-width: 10%;
+    max-height: 10%;
+    display: inline;
+    padding-bottom: 16px;
+ }
+#wrapper {
+    background-color: white;
+    max-width:1200px;
+    margin:50px auto;
+}
+
+nav {
+    height: 60px;
+    background: darkcyan;
+    line-height: 60px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+nav li {
+    float:left;
+    width: 16.66%;
+    text-align: center;
+    list-style-type:none;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+}
+main {
+    width: 55%;
+    float: left;
+}
+p {
+    width: 100%;
+}
+img {
+    width: 50%;
+
+}
+
+aside {
+    width: 35%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+
+}
+aside ol {
+    margin-left: 100px;
+}
+aside h3 {
+    margin-left: 100px;
+}
+.right {
+    float: right;
+    margin-left: 30px;
+}
+/* typography */
+
+h1 {
+    text-align:center;
+    font-size: 2.5em;
+    margin: 20px 0;
+    font-weight:bolder;
+}
+a {
+    text-decoration:double;
+}
+h2 {
+   font-size: 2em;
+   text-align:center;
+   margin-bottom: 20px;
+}
+main h2, aside h2 {
+    text-align: left;
+}
+
+
+    
+
+footer {
+    height: 60px;
+    line-height: 60px;
+    background-color: #ddd;
+    clear: both;
+}
+footer ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+footer li {
+    justify-content: center;
+    margin: 0 15px;
+}
+
+
+

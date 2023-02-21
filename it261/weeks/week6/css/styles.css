@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: beige;
+}
+
+form{
+    width: 400px;
+    margin: 20px auto;
+}
+form ul{
+    margin-bottom: 10px;
+    list-style-type: none;
+}
+
+fieldset{
+    border: 1px solid thistle;
+    padding: 10px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+input[type=text],
+input[type=email],
+input[type=tel] {
+    display: block;
+    height: 30px;
+    width: 100%;
+    margin-bottom:10px;
+}
+input[type=submit]{
+    display:block;
+    margin-bottom: 10px;
+}
+.error{
+    display: block;
+    color: red;
+    margin-bottom: 8px;
+}
+textarea{
+    width:400px;
+    height: 100px;
+    margin:20px auto;
+    padding: 10px;
+}
