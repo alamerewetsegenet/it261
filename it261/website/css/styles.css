@@ -1,120 +1,111 @@
-/* styles for my website */
+/*style for my portal! */
 * {
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
-body {
-    background-color: beige;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
 
-.current {
-    color:red;
-}
-header {
-    background: yellow;
-    padding: 10px 0;
-}
-.inner-header {
-    max-width: 1200px;
-    margin: 0px auto;
-    overflow: hidden;
+body {
+    background: white;
 
 }
 #logo {
-    width: 200px;
-    float: left;
+    max-width: 10%;
+    max-height: 10%;
+    display: inline;
+    padding-bottom: 16px;
+ }
+#wrapper {
+    background-color: white;
+    max-width:1200px;
+    margin:50px auto;
 }
-nav ul {
-    float:right;
-    margin-top: 30px;
-    list-style-type: none;
+
+nav {
+    height: 60px;
+    background: darkcyan;
+    line-height: 60px;
+    margin-bottom: 20px;
+    width: 100%;
 }
 nav li {
-    float: left;
-    margin-left: 30px;
+    float:left;
+    width: 16.66%;
+    text-align: center;
+    list-style-type:none;
 }
 nav a {
+    color: white;
     text-decoration: none;
 }
-#wrapper {
-    max-width: 1200px;
-    margin: 20px auto;
-    clear: both; 
-    overflow: hidden;   
-}
-#hero {
-    height: 800px;
-    margin-bottom: 20px;
-
-}
-#hero img {
-    width: 100%;
-    height: 100%;
-    margin-bottom: 20px;
-
-}
 main {
-    width:50%;
-    background: lightblue;
+    width: 55%;
     float: left;
 }
+p {
+    width: 100%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+img {
+    width: 50%;
+
+}
+
 aside {
-    margin-bottom: 15px;
-    margin-top: 15px;
     width: 35%;
     padding-left: 15px;
     margin-left: 15px;
-    height: 300px;
-    float:right;
-    margin-right: 55px;
-    
+    float: right;
+
 }
-aside img {
-    width:100%;
-    height: 100%;
+aside ol {
+    margin-left: 100px;
 }
+aside h3 {
+    margin-left: 100px;
+}
+.right {
+    float: right;
+    margin-left: 30px;
+}
+/* typography */
+
+h1 {
+    text-align:center;
+    font-size: 2.5em;
+    margin: 20px 0;
+    font-weight:bolder;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+a {
+    text-decoration:double;
+}
+h2 {
+   font-size: 2em;
+   text-align:center;
+   margin-bottom: 20px;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+main h2, aside h2 {
+    text-align: left;
+}
+
 footer {
     height: 60px;
     line-height: 60px;
-    background: #ddd;
+    background-color: #ddd;
     clear: both;
 }
 footer ul {
-   display: flex;
-   justify-content: center; 
-   list-style: none;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
 }
+
 footer li {
     justify-content: center;
     margin: 0 15px;
 }
-img {
-    width: 50%;
-    padding-left: 10px;
-    margin-left: 55px;
-    margin-bottom: 15px;
-    margin-top: 15px;
-   
 
-}
-/* typography */
 
-p {
-    margin-bottom: 20px;
-    line-height: 1.4;
-}
-h1 {
-   font-size: 2.5em; 
-}
-h2 {
-    font-size: 2em;
-}
-h3 {
-    font-size: 1.5em;
-}
-h1, h2, h3 {
-    margin-bottom: 10px;
-    font-family:playfair;
-}
+
