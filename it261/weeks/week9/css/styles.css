@@ -1,0 +1,108 @@
+/*styles for my people and people-view exercise!!! */
+*{
+    padding:0;
+    margin: 0;
+    box-sizing:border-box;
+}
+
+body {
+    -webkit-animation: colorchange 20s infinite;
+    animation: colorchange 20s infinite;
+  }
+  @-webkit-keyframes colorchange {
+    
+    25% {
+      background: #e6ebef;
+    }
+    
+    100% {
+      background: #d0e2bc;
+    }
+  }
+  @keyframes colorchange {
+   
+    25% {
+      background: #e6ebef;
+    }
+
+    100% {
+      background: #d0e2bc;
+    }
+  }
+
+h1 {
+    text-align: center;
+}
+
+#wrapper {
+    max-width: 1200px;
+    margin: 30px auto;
+    clear: both;
+}
+.success{
+    float: left;
+    margin-left: 5%;
+    margin-top: 20px;
+    width: 200px;
+    background: lightseagreen;
+    padding: 10px;
+}
+.welcome-logout {
+    float: right;
+    margin-right: 5%;
+    margin-top: 20px;
+    width: 200px;
+    background: lightgreen;
+    padding: 10px;
+}
+.center {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+form {
+    max-width: 580px;
+    /* use margin 0 auto for centering only*/
+    margin:0 auto 20px auto;
+}
+fieldset {
+    border: 2px solid green;
+    padding: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+
+}
+
+input {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+    
+}
+.errors{
+    display: block;
+    color: red;
+    margin-bottom: 8px;
+    font-style: italic;
+}
+
+footer{
+    clear: both;
+
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+
+}
+footer li {
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+
+}
